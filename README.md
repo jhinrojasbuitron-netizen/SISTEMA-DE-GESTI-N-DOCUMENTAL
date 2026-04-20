@@ -52,5 +52,10 @@ El sistema requiere una instancia de MySQL:
   <img src="./Imagenes/AddAlumno.PNG" width="800" alt="Registro Alumnos">
 </p>
 
+### Gestión de Profesor
+<p align="center">
+  <img src="./Imagenes/InterfazPrincipalProfesor.PNG" width="800" alt="Panel Principal de Profesor">
+</p>
+
 ---
 *Facultad de Ingeniería de Sistemas - 2023*
