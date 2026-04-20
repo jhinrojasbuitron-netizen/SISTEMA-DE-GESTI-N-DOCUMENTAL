@@ -30,7 +30,15 @@ Para que el sistema funcione correctamente, debes importar el script SQL:
 4. Limpia y construye el proyecto (**Clean and Build**).
 
 ## 📸 Capturas del Sistema
-*(Próximamente: Agrega aquí tus imágenes siguiendo el formato `![InterfazPrincipal](/Imagenes/AddAlumno.PNG)`)*
+
+### Interfaz de Registro de Alumnos
+![Registro Alumnos](./Imagenes/AddAlumno.PNG)
+
+### Panel Principal
+![Panel Principal](./Imagenes/InterfazPrincipal.PNG)
+
+### Acceso Administrativo
+![Login](./Imagenes/LoginAdmin.PNG)
 
 ---
 Desarrollado como parte de la formación académica en Ingeniería de Sistemas.
