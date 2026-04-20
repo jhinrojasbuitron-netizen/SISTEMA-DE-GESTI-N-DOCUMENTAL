@@ -29,16 +29,22 @@ Para que el sistema funcione correctamente, debes importar el script SQL:
 3. Asegúrate de configurar la conexión en tu código Java (User/Password de MySQL).
 4. Limpia y construye el proyecto (**Clean and Build**).
 
-## 📸 Capturas del Sistema
+## 📸 Algunas Capturas del Sistema
 
-### Interfaz de Registro de Alumnos
-![Registro Alumnos](./Imagenes/AddAlumno.PNG)
+### Acceso de Administrador
+![Registro Alumnos](./Imagenes/LoginAdmin.PNG)
 
 ### Panel Principal
 ![Panel Principal](./Imagenes/InterfazPrincipal.PNG)
 
-### Acceso Administrativo
-![Login](./Imagenes/LoginAdmin.PNG)
+### Interfaz de Registro de Alumnos
+![Registro Alumnos](./Imagenes/AddAlumno.PNG)
+
+### Acceso de Profesor
+![Registro Alumnos](./Imagenes/LoginProfesor.PNG)
+
+### Panel Principal de Profesor
+![Panel Principal](./Imagenes/InterfazPrincipalProfesor.PNG)
 
 ---
 Desarrollado como parte de la formación académica en Ingeniería de Sistemas.
