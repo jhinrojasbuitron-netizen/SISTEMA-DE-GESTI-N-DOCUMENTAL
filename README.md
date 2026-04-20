@@ -1,50 +1,56 @@
-# 📂 Sistema de Gestión Documental - Colegio David Samanez Ocampo
+# 📂 Sistema de Gestión Documental - I.E. David Samanez Ocampo
 
-Este proyecto es una solución desarrollada en **Java** para automatizar y organizar la gestión de documentos, matrículas y registros académicos del colegio David Samanez Ocampo Chacamachay.
+Este proyecto es una solución integral desarrollada en **Java** diseñada para automatizar y optimizar la gestión documental y el proceso de matrícula en la institución educativa rural N° 50670 David Samanez Ocampo Chacamachay.
 
-## 🚀 Funcionalidades Principal
-* **Gestión de Alumnos:** Registro y actualización de datos mediante persistencia en CSV/Base de Datos.
-* **Control de Matrículas:** Proceso de inscripción y seguimiento de estudiantes.
-* **Administración de Profesores:** Módulo para la gestión del personal docente.
-* **Seguridad:** Sistema de login para usuarios autorizados.
+## 📝 Introducción y Propósito
+El sistema nace de la necesidad de modernizar la gestión administrativa en zonas rurales, donde la falta de seguimiento eficiente en formato digital suele ser una barrera. El propósito principal es:
+* **Digitalizar** los registros de matrícula y datos personales.
+* **Agilizar** los procesos de búsqueda y actualización de información académica.
+* **Brindar seguridad** a los archivos proporcionados por estudiantes y docentes.
+
+## 🚀 Funcionalidades Principales
+* **Módulo de Matrícula:** Gestión completa del ciclo de inscripción de alumnos.
+* **Gestión de Usuarios:** Roles diferenciados para Administradores y Profesores.
+* **Mantenimiento de Datos:** Registro, edición y consulta de Alumnos, Profesores y Matrículas.
+* **Persistencia Híbrida:** Uso de base de datos **MySQL** para el núcleo del sistema y archivos **CSV** para la exportación de reportes rápidos.
 
 ## 🛠️ Tecnologías Utilizadas
-* **Lenguaje:** Java (JDK 8+)
-* **Base de Datos:** MySQL (Script incluido)
+* **Lenguaje:** Java (Programación Orientada a Objetos)
+* **Persistencia:** MySQL & CSV (BufferReader/FileWriter)
+* **Arquitectura:** Diseño basado en capas (Controlador, Modelo, Vista).
 * **IDE:** NetBeans
-* **Formato de datos:** CSV para reportes rápidos.
 
-## 📋 Pre-requisitos e Instalación
+## 📋 Configuración del Entorno
 
 ### 1. Base de Datos 🗄️
-Para que el sistema funcione correctamente, debes importar el script SQL:
-1. Abre tu gestor de base de datos (MySQL Workbench, phpMyAdmin, etc.).
-2. Crea una nueva base de datos.
-3. Importa el archivo `trabajo final.sql` que se encuentra en la raíz de este repositorio.
+El sistema requiere una instancia de MySQL:
+1. Crea una base de datos en tu servidor local.
+2. Importa el archivo `trabajo final.sql` incluido en la raíz de este repositorio para generar las tablas y relaciones necesarias.
 
 ### 2. Ejecución 💻
-1. Clona el repositorio: 
+1. Clona este repositorio: 
    `git clone https://github.com/jhinrojasbuitron-netizen/SISTEMA-DE-GESTI-N-DOCUMENTAL.git`
-2. Abre el proyecto en NetBeans.
-3. Asegúrate de configurar la conexión en tu código Java (User/Password de MySQL).
-4. Limpia y construye el proyecto (**Clean and Build**).
+2. Abre el proyecto en **NetBeans**.
+3. Revisa la clase de conexión para asegurar que el usuario y contraseña de tu MySQL coincidan.
+4. Ejecuta un **Clean and Build** y lanza la aplicación desde la clase principal.
 
-## 📸 Algunas Capturas del Sistema
+## 📸 Capturas del Sistema
 
-### Acceso de Administrador
-![Registro Alumnos](./Imagenes/LoginAdmin.PNG)
+### Acceso al Sistema
+<p align="center">
+  <img src="./Imagenes/LoginAdmin.PNG" width="400" alt="Login Admin">
+  <img src="./Imagenes/LoginProfesor.PNG" width="400" alt="Login Profesor">
+</p>
 
-### Panel Principal
-![Panel Principal](./Imagenes/InterfazPrincipal.PNG)
+### Gestión Administrativa
+<p align="center">
+  <img src="./Imagenes/InterfazPrincipal.PNG" width="800" alt="Panel Principal">
+</p>
 
-### Interfaz de Registro de Alumnos
-![Registro Alumnos](./Imagenes/AddAlumno.PNG)
-
-### Acceso de Profesor
-![Registro Alumnos](./Imagenes/LoginProfesor.PNG)
-
-### Panel Principal de Profesor
-![Panel Principal](./Imagenes/InterfazPrincipalProfesor.PNG)
+### Registro de Alumnos
+<p align="center">
+  <img src="./Imagenes/AddAlumno.PNG" width="800" alt="Registro Alumnos">
+</p>
 
 ---
-Desarrollado como parte de la formación académica en Ingeniería de Sistemas.
+*Facultad de Ingeniería de Sistemas - 2023*
